@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>FORMULARIO DEL HOTEL</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0"/>
+    <link rel="stylesheet" href="FORMU.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="form-title">REGISTRESE</h1>
+      <form action="#">
+        <div class="main-user-info">
+          <div class="user-input-box">
+            <label for="Nombres">NOMBRES</label>
+            <input type="text"
+                    id="nombre completo"
+                    name="nombre completo"
+                    placeholder="Ingrese su nombre completo"/>
+          </div>
+          <div class="user-input-box">
+            <label for="Ingrese su apellido">APELLIDOS</label>
+            <input type="texto"
+                    id="apellido"
+                    name="apellido"
+                    placeholder="Ingrese sus Apellidos"/>
+          </div>
+          <div class="user-input-box">
+            <label for="fecha">FECHA DE NACIMIENTO</label>
+            <input type="fecha"
+                    id="fecha"
+                    name="fecha"
+                    placeholder="Ingrese su fecha de Nacimiento"/>
+          </div>
+          <div class="user-input-box">
+            <label for="Numero de telefono">INGRESE SU NUMERO DE TELEFONO</label>
+            <input type="text"
+                    id="Numero de telefono"
+                    name="Numero de telefono"
+                    placeholder="Ingrese su numero de telefono "/>
+          </div>
+          <div class="user-input-box">
+            <label for="contra">CORREO</label>
+            <input type="contra"
+                    id="contra"
+                    name="contra"
+                    placeholder="Ingrese su Correo"/>
+          </div>
+          <div class="user-input-box">
+            <label for="confirmesucontra">CONTRASEÑA</label>
+            <input type="contra"
+                    id="confirmesucontra"
+                    name="confirmesucontra"
+                    placeholder="Ingrese su Contraseña"/>
+          </div>
+        </div>
+        <div class="gender-details-box">
+          <span class="gender-title">GENERO</span>
+          <div class="gender-category">
+            <input type="radio" name="gender" id="male">
+            <label for="male">Prefiero no decir</label>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Mujer</label>
+            <input type="radio" name="gender" id="other">
+            <label for="other">Hombre</label>
+          </div>
+        </div>
+        <div class="form-submit-btn">
+          <input type="submit" value="RESGISTRARSE">
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="formuac.js"></script>
+</html>
